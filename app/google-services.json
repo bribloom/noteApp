@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "653510863891",
+    "project_id": "noteboxx",
+    "storage_bucket": "noteboxx.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:653510863891:android:9320af15be6267079b23e6",
+        "android_client_info": {
+          "package_name": "com.example.noteboxx"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "653510863891-3ht884sp6f1itus09c5hmrddnilsdqfb.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDwOskYOW2RXHvKt6wz7Cu74Blh6SSo208"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "653510863891-3ht884sp6f1itus09c5hmrddnilsdqfb.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

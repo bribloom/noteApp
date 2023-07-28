@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@color/mint"
+    tools:context=".RegisterActivity">
+
+    <ImageView
+        android:id="@+id/home"
+        android:layout_width="50dp"
+        android:layout_height="50dp"
+        android:background="@drawable/arrow"
+        android:layout_margin="10dp"/>
+
+    <com.airbnb.lottie.LottieAnimationView
+        android:layout_width="wrap_content"
+        android:layout_height="140dp"
+        app:lottie_rawRes="@raw/lottieregister"
+        app:lottie_autoPlay="true"
+        app:lottie_loop="true"/>
+
+
+    <com.google.android.material.card.MaterialCardView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="15dp"
+        android:padding="15dp"
+        app:cardCornerRadius="20dp"
+        app:strokeWidth="2.5dp"
+        app:strokeColor="@color/black"
+        app:cardElevation="18dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:background="@color/white"
+            android:padding="20dp"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="REGISTER"
+                android:textAlignment="center"
+                android:textSize="30dp"
+                android:layout_marginBottom="25dp"
+                android:fontFamily="@font/drukwide"
+                android:textColor="@color/black"/>
+
+            <EditText
+                android:id="@+id/mname"
+                android:layout_width="match_parent"
+                android:textSize="13sp"
+                android:layout_height="50dp"
+                android:background="@drawable/border"
+                android:hint="NAME"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/drukwide"
+                android:drawableLeft="@drawable/person"
+                android:drawablePadding="10dp"
+                android:layout_marginBottom="20dp"
+                android:textColor="@color/black"
+                android:padding="5dp"/>
+
+
+            <EditText
+                android:id="@+id/email_address"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:textSize="13sp"
+                android:background="@drawable/border"
+                android:hint="EMAIL ADDRESS"
+                android:textColorHint="@color/black"
+                android:fontFamily="@font/drukwide"
+                android:drawableLeft="@drawable/email"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:layout_marginBottom="25dp"
+                android:padding="5dp"/>
+
+
+
+            <EditText
+                android:id="@+id/password"
+                android:layout_width="match_parent"
+                android:layout_height="50dp"
+                android:background="@drawable/border"
+                android:hint="PASSWORD"
+                android:textColorHint="@color/black"
+                android:textSize="13sp"
+                android:fontFamily="@font/drukwide"
+                android:drawableLeft="@drawable/lock"
+                android:drawablePadding="10dp"
+                android:textColor="@color/black"
+                android:inputType="textEmailAddress"
+                android:layout_marginBottom="25dp"
+                android:padding="5dp"/>
+
+            <com.google.android.material.button.MaterialButton
+                android:id="@+id/mregister"
+                android:layout_width="250dp"
+                android:layout_height="wrap_content"
+                android:backgroundTint="@color/mint"
+                app:strokeWidth="2dp"
+                android:text="REGISTER"
+                android:textSize="20dp"
+                android:textColor="@color/white"
+                android:fontFamily="@font/drukwide"/>
+
+
+            <TextView
+                android:id="@+id/gologinacc"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Have an account? Log in"
+                android:textAlignment="center"
+                android:fontFamily="@font/drukwide"
+                android:textSize="12sp"
+                android:layout_marginTop="20dp"
+                android:textColor="@color/black"/>
+
+
+        </LinearLayout>
+
+
+
+
+
+    </com.google.android.material.card.MaterialCardView>
+
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="NOTEBOXX:TEST 1.0A"
+        android:layout_marginTop="20dp"
+        android:textAlignment="center"
+        android:fontFamily="@font/drukwide"
+        android:textColor="@color/black"
+        android:textSize="10sp"/>
+
+
+</LinearLayout>
